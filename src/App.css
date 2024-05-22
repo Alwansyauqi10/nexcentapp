@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --Black: #263238;
+  --White: #FFFFFF; 
+  --Silver: #F5F7FA;
+  --D_Grey: #4D4D4D;
+  --Grey: #717171; 
+  --Green: #28CB8B;  
+}
+
+*{
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: var(--Silver);
+}
+
+.navbar-brand  {
+  font-weight: bold;
+}
+
+.text-login {
+  color: var(--Green);
+  text-decoration: none;
+}
+
+.text-login:hover {
+  color: #14B777;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-signup {
+  color: var(--White);
+  background-color: var(--Green);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 16px;
+}
+
+.btn-signup:hover {
+  background-color: #14B777;
+  transition: 0.5s ease-in-out;
+}
+
+.hero {
+  background-color: var(--Silver);
+}
+
+.judul {
+  justify-content: center;
+}
+
+.lesson {
+  color: var(--Black);
+  font-size: 63px;
+  animation: fadeInUp 0.2s ease 0.2s forwards;
+}
+
+.from8years {
+  color: var(--Green);
+  font-size: 66px;
+  animation: fadeInUp 0.2s ease 0.2s forwards;
+}
+
+.wheretogrow {
+  color: var(--Grey);
+  animation: fadeInUp 0.4s ease 0.4s forwards;
+
+}
+
+.btn-register {
+  color: var(--White);
+  background-color: var(--Green);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 16px;
+  animation: fadeInUp 0.5s ease 0.5s forwards;
+}
+
+.btn-register:hover {
+  background-color: #14B777;
+  transition: 0.5s ease-in-out
+}
+
+.hero-image img {
+  height: 90%;
+}
+
+@media (max-width: 768px) {
+  .lesson {
+    color: var(--Black);
+    font-size: 58px;
+  }
+  
+  .from8years {
+    color: var(--Green);
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 576px) {
+  .lesson {
+    color: var(--Black);
+    font-size: 50px;
+  }
+  
+  .from8years {
+    color: var(--Green);
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-clients {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .img-MeetAllCustomers  {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+
+.deskripsi-clients{
+  text-align: center;
+}
+
+.logo-clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.deskripsi-clients2{
+  text-align: center;
+}
+
+.all-card {
+  gap: 125px;
+  display: flex;
+}
+
+.all-card .card {
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  .all-card {
+    display: block;
+  }
+  .card {
+    margin-bottom: 70px;
+  }
+  .setelah-card {
+    flex-direction: column;
+  }
+  .image-setelah-card {
+    margin-bottom: 35px;
+  }
+  .image-howtodesign{
+    margin-bottom: 35px; 
+  }
+  .logo-MeetAllCustomers {
+    margin-bottom: 35px;  
+  }
+  .member {
+    flex-direction: column;
+  }
+  .helping {
+    flex-direction: column;
+  }
+  /* .deskripsi-helping {
+    text-align: start;
+    padding-left: 23px;
+    margin-bottom: 23px;
+  }   */
+  .howtodesign {
+    flex-direction: column;
+  }
+  .card-CaringMarketing {
+    flex-direction: column;
+  }
+  .image-container {
+    margin-bottom: 83px;
+  }
+  .footers {
+    flex-direction: column;
+  }
+  .div-MeetAllCustomers {
+    flex-direction: column;
+  }
+  .margin-bayangan {
+    display: none;
+  }
+}
+
+.btn-learnmore {
+  color: var(--White);
+  background-color: var(--Green);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 16px;
+}
+
+.btn-learnmore:hover {
+  background-color: #14B777;
+  transition: 0.5s ease-in-out;
+}
+
+.help {
+  background-color: var(--Silver);
+}
+
+.deskripsi-helping h1 span {
+  color: var(--Green);
+}
+
+.jumlah {
+  gap: 50px;
+}
+
+.member {
+  gap: 10px;
+}
+
+.member-info h2,
+.member-info p {
+    margin-bottom: -2px;
+}
+
+.MeetAllCustomers {
+  background-color: var(--Silver);
+}
+
+.deskripsi-MeetAllCustomers h6 {
+  color: var(--Green);
+}
+
+.img-MeetAllCustomers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.link-MeetAllCustomers {
+  align-self: center;
+}
+
+.link-MeetAllCustomers {
+  color: var(--Green);
+  text-decoration: none;
+}
+
+.link-MeetAllCustomers:hover {
+  color: #14B777;
+  transition: 0.5s ease-in-out;
+}
+
+.card-CaringMarketing {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.description-container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Sesuaikan dengan lebar yang diinginkan */
+}
+
+.description-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.cardbody {
+  font-size: 24px;
+}
+
+.margin-bayangan {
+  color: white;
+}
+
+.GetDemo {
+  background-color: var(--Silver);
+}
+
+.footer {
+  background-color: var(--Black);
+}
+
+.footer-menu h5 {
+  color: var(--White);
+  font-weight: bold;
+}
+
+.footer-menu p {
+  color: var(--White);
+}
